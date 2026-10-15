@@ -8,7 +8,7 @@ ML II, Fall 2026, Rutgers University
 
 | Member | Role | Owns |
 |---|---|---|
-| Anish Shirodkar | Project lead; modeling and methods | `models/`, `conformal/`, `metrics/`; repo and code reviews |
+| Anish Shirodkar |  modeling and methods | `models/`, `conformal/`, `metrics/`; repo and code reviews |
 | Anand Patel | Data engineering | `data/` (AR(1) generator, UCI and ENTSO-E loaders), Chronos pipeline |
 | Santanu Agarwal | Experiment infrastructure | `experiments/` (configs, runner, seeding), `results/`, plotting |
 
