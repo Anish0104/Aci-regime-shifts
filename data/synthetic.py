@@ -1,4 +1,4 @@
-"""Synthetic AR(1) series with a controlled regime shift."""
+﻿"""Synthetic AR(1) series with a controlled regime shift."""
 import numpy as np
 
 
@@ -22,6 +22,8 @@ def generate_ar1(
     if shift_at is None:
         test_start = int(0.8 * n)
         shift_at = test_start + (n - test_start) // 4   # 25% into the test segment
+
+    assert int(0.8 * n) <= shift_at < n, "shift must start in the last 20%"
 
     # weight goes 0 -> 1 at the shift (instantly or linearly over `ramp` steps)
     t = np.arange(n)

@@ -1,7 +1,7 @@
-cat > .gitignore << 'EOF'
-.venv/
+﻿.venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 results/*.json
 .DS_Store
+data/raw/
