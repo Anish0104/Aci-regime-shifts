@@ -5,3 +5,5 @@ __pycache__/
 results/*.json
 .DS_Store
 data/raw/
+results/runs/
+results/cache/
